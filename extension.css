@@ -1,0 +1,294 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/G2uphNnNqGFMHLRsO_72ngLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/CggrdU0t5c42NcNxN-VM33YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/2HG_tEPiQ4Z6795cGfdivLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/HkF_qI1x_noxlxhrhMQYELO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/VNUH7ZAcagYBWsAiBBCEY7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+.content {
+  width: auto !important;
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+body#logged_out_default #view_content, body#logged_in_default #view_content {
+  width: auto !important;
+}
+
+.product_dashboard .d-board .items_column {
+  width: 32% !important;
+  margin-right: 1%;
+}
+
+/* make the columns full width */
+
+.product_dashboard .d-board {
+  padding: 0 20px;
+}
+
+.product_dashboard .d-board .items_column .order_container {
+  width: auto !important;
+}
+
+/* style the columns */
+.product_dashboard .d-board .items_column .order_container {
+  background: #444 !important;
+  padding: 10px;
+}
+
+.items_column .order_container .c_label {
+  color: rgb(236, 236, 231) !important;
+  text-shadow: none !important;
+  font-family: "Lato" !important;
+  text-transform: uppercase;
+  font-size: 16px !important;
+}
+
+.items_column ol.size, .items_column ol.sort, .items_column .order_container div.order select.order {
+  display: none;
+}
+
+.items_column {
+  background: none !important;
+  border: none !important;
+}
+
+.items_column .wrap {
+  box-shadow: none !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.items_column ul.items li.item {
+  padding-bottom: 0 !important;
+}
+
+/* card styles */
+
+.items_column.default .main .item {
+  min-height: 0 !important;
+}
+
+.card {
+  border-radius: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid #999 !important;
+  box-shadow: none !important;
+}
+
+.card .body {
+  text-shadow: none !important;
+}
+
+.card.defect .body, .card.story .body, .card.task .body {
+  background: none !important;
+  border: none !important;
+}
+
+.card.defect {
+  background: rgba(209,106,100, 0.35);
+}
+
+.card.story {
+  background: rgba(162,172,93, 0.35);
+}
+
+.card.task {
+  background: rgba(127, 140, 141, 0.35);
+}
+
+.card .body .title {
+  font-family: Helvetica !important;
+  font-weight: lighter;
+}
+
+.card .status {
+  text-shadow: none !important;
+}
+
+.card .body .title span.part {
+  background-color: transparent !important;
+  border-bottom: none !important;
+}
+
+.card .bottom .number {
+  color: #333 !important;
+  text-shadow: none !important;
+}
+
+.card .bottom {
+  margin-top: 20px !important;
+}
+
+.card .top {
+  margin-top: 10px;
+}
+
+.card .tag_holder .icon_holder {
+  display: none;
+}
+
+.card .tag_holder .icon_holder span{
+  display: inline;
+}
+
+.card .status img.avatar, .card .status .unassigned {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 18px !important;
+  border: 2px solid #333;
+  margin-top: -8px;
+}
+
+.card .estimator {
+
+}
+
+/* main background texture */
+
+#main-wrapper {
+  background: rgb(236, 236, 231) !important;
+}
+
+/* header */
+
+body#logged_in_default #logged_in_header {
+  background: #333 !important;
+  box-shadow: none !important;
+}
+
+#add_item_small {
+  float: right;
+  line-height: 29px;
+  padding: 1px 10px 0 33px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background: rgb(135, 180, 61);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(180, 208, 133);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "museo-slab-1", "museo-slab-2", serif;
+  font-weight: 300;
+}
+
+#add_item_small, body#logged_in_default #logged_in_header a.add_member {
+  background: rgb(85, 148, 169) !important;
+  border-top: none !important;
+  font-family: "Lato" !important;
+  font-weight: 900;
+}
+
+body#logged_in_default #logged_in_header a#add_item_small:hover, body#logged_in_default #logged_in_header a.add_member:hover {
+  background: rgb(96,168,192) !important;
+}
+
+body#logged_in_default #logged_in_header ul.links li.link a {
+  font-family: "Lato" !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+body#logged_in_default #logged_in_header .search label {
+  font-family: "Lato" !important;
+  line-height: 45px !important;
+}
+
+body#logged_in_default #logged_in_header .search input {
+  border: 2px solid #666 !important;
+}
+
+/* global filter */
+
+.global-filters-container .global-filters {
+  background: #666 !important;
+  box-shadow: 0 1px 5px #999 !important;
+  border-radius: 0 !important;
+  font-family: Lato !important;
+  padding: 11px 46px 11px 30px !important;
+}
+
+.global-drawer .floater .content {
+  padding: 0 !important;
+}
+
+.global-filters-container .add-filter {
+  right: 21px !important;
+}
+
+.global-filters-container .add-filter a.add-filter-btn {
+  border: none !important;
+}
+
+/* Graphs */
+
+.product_dashboard #graphs .graph-title {
+  font-family: Lato !important;
+  font-weight: 700 !important;
+}
+
+.grid .half {
+  width: 47% !important;
+}
+
+
+

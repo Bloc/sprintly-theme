@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sprintly",
+  "description": "UI Improvements for Sprintly.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://sprint.ly/*"],
+      "css": ["extension.css"]
+    }
+  ]
+}
